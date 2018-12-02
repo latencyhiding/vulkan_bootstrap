@@ -1,0 +1,1 @@
+add_library(single_hander_libs single_header.cpp)
