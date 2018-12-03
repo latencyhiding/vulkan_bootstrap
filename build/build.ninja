@@ -39,30 +39,30 @@ include rules.ninja
 build cmake_object_order_depends_target_vulkan_project: phony || cmake_object_order_depends_target_glfw
 build CMakeFiles\vulkan_project.dir\src\main.cpp.obj: CXX_COMPILER__vulkan_project ..\src\main.cpp || cmake_object_order_depends_target_vulkan_project
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -I..\thirdparty\glfw\include
+  INCLUDES = -I..\thirdparty\glfw\include -IC:\VulkanSDK\1.1.92.1\Include
   OBJECT_DIR = CMakeFiles\vulkan_project.dir
   OBJECT_FILE_DIR = CMakeFiles\vulkan_project.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\vulkan_project.dir\
-  TARGET_PDB = vulkan_project.pdb
+  TARGET_PDB = ..\bin\vulkan_project.pdb
 
 # =============================================================================
 # Link build statements for EXECUTABLE target vulkan_project
 
 
 #############################################
-# Link the executable vulkan_project.exe
+# Link the executable ..\bin\vulkan_project.exe
 
-build vulkan_project.exe: CXX_EXECUTABLE_LINKER__vulkan_project CMakeFiles\vulkan_project.dir\src\main.cpp.obj | thirdparty\glfw\src\glfw3.lib || thirdparty\glfw\src\glfw3.lib
+build ..\bin\vulkan_project.exe: CXX_EXECUTABLE_LINKER__vulkan_project CMakeFiles\vulkan_project.dir\src\main.cpp.obj | thirdparty\glfw\src\glfw3.lib C$:\VulkanSDK\1.1.92.1\Lib\vulkan-1.lib || thirdparty\glfw\src\glfw3.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = thirdparty\glfw\src\glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = thirdparty\glfw\src\glfw3.lib C:\VulkanSDK\1.1.92.1\Lib\vulkan-1.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\vulkan_project.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\vulkan_project.dir\
-  TARGET_FILE = vulkan_project.exe
+  TARGET_FILE = ..\bin\vulkan_project.exe
   TARGET_IMPLIB = vulkan_project.lib
-  TARGET_PDB = vulkan_project.pdb
+  TARGET_PDB = ..\bin\vulkan_project.pdb
 
 #############################################
 # Utility command for install/local
@@ -194,7 +194,7 @@ build thirdparty\glfw\src\rebuild_cache: phony thirdparty\glfw\src\CMakeFiles\re
 build cmake_object_order_depends_target_glfw: phony
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\context.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -202,7 +202,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw ..
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\init.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -210,7 +210,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw ..\th
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\input.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -218,7 +218,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw ..\t
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -226,7 +226,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw ..
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -234,7 +234,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw ..\
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\window.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -242,7 +242,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw ..\
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -250,7 +250,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glfw
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -258,7 +258,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER__
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -266,7 +266,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__g
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -274,7 +274,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glfw
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -282,7 +282,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__gl
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -290,7 +290,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__gl
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -298,7 +298,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj: C_COMPILER__glf
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -306,7 +306,7 @@ build thirdparty\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__glf
   TARGET_PDB = thirdparty\glfw\src\glfw3.pdb
 build thirdparty\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_COMPILER__glfw ..\thirdparty\glfw\src\osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement
   INCLUDES = -I..\thirdparty\glfw\include -I..\thirdparty\glfw\src -Ithirdparty\glfw\src
   OBJECT_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = thirdparty\glfw\src\CMakeFiles\glfw.dir
@@ -2023,7 +2023,8 @@ build title.exe: phony thirdparty\glfw\tests\title.exe
 build uninstall: phony thirdparty\glfw\uninstall
 build vulkan: phony thirdparty\glfw\tests\vulkan.exe
 build vulkan.exe: phony thirdparty\glfw\tests\vulkan.exe
-build vulkan_project: phony vulkan_project.exe
+build vulkan_project: phony ..\bin\vulkan_project.exe
+build vulkan_project.exe: phony ..\bin\vulkan_project.exe
 build wave: phony thirdparty\glfw\examples\wave.exe
 build wave.exe: phony thirdparty\glfw\examples\wave.exe
 build windows: phony thirdparty\glfw\tests\windows.exe
@@ -2069,7 +2070,7 @@ build  thirdparty\single_header\all: phony single_hander_libs
 #############################################
 # The main all target.
 
-build all: phony vulkan_project.exe thirdparty\glfw\src\glfw3.lib thirdparty\glfw\examples\boing.exe thirdparty\glfw\examples\simple.exe thirdparty\glfw\examples\gears.exe thirdparty\glfw\examples\wave.exe thirdparty\glfw\examples\particles.exe thirdparty\glfw\examples\heightmap.exe thirdparty\glfw\examples\splitview.exe thirdparty\glfw\examples\offscreen.exe thirdparty\glfw\examples\sharing.exe thirdparty\glfw\tests\clipboard.exe thirdparty\glfw\tests\events.exe thirdparty\glfw\tests\msaa.exe thirdparty\glfw\tests\glfwinfo.exe thirdparty\glfw\tests\iconify.exe thirdparty\glfw\tests\empty.exe thirdparty\glfw\tests\monitors.exe thirdparty\glfw\tests\reopen.exe thirdparty\glfw\tests\cursor.exe thirdparty\glfw\tests\gamma.exe thirdparty\glfw\tests\icon.exe thirdparty\glfw\tests\inputlag.exe thirdparty\glfw\tests\joysticks.exe thirdparty\glfw\tests\threads.exe thirdparty\glfw\tests\opacity.exe thirdparty\glfw\tests\tearing.exe thirdparty\glfw\tests\timeout.exe thirdparty\glfw\tests\title.exe thirdparty\glfw\tests\windows.exe thirdparty\glfw\tests\vulkan.exe thirdparty\single_header\single_hander_libs.lib
+build all: phony ..\bin\vulkan_project.exe thirdparty\glfw\src\glfw3.lib thirdparty\glfw\examples\boing.exe thirdparty\glfw\examples\simple.exe thirdparty\glfw\examples\gears.exe thirdparty\glfw\examples\wave.exe thirdparty\glfw\examples\particles.exe thirdparty\glfw\examples\heightmap.exe thirdparty\glfw\examples\splitview.exe thirdparty\glfw\examples\offscreen.exe thirdparty\glfw\examples\sharing.exe thirdparty\glfw\tests\clipboard.exe thirdparty\glfw\tests\events.exe thirdparty\glfw\tests\msaa.exe thirdparty\glfw\tests\glfwinfo.exe thirdparty\glfw\tests\iconify.exe thirdparty\glfw\tests\empty.exe thirdparty\glfw\tests\monitors.exe thirdparty\glfw\tests\reopen.exe thirdparty\glfw\tests\cursor.exe thirdparty\glfw\tests\gamma.exe thirdparty\glfw\tests\icon.exe thirdparty\glfw\tests\inputlag.exe thirdparty\glfw\tests\joysticks.exe thirdparty\glfw\tests\threads.exe thirdparty\glfw\tests\opacity.exe thirdparty\glfw\tests\tearing.exe thirdparty\glfw\tests\timeout.exe thirdparty\glfw\tests\title.exe thirdparty\glfw\tests\windows.exe thirdparty\glfw\tests\vulkan.exe thirdparty\single_header\single_hander_libs.lib
 
 #############################################
 # Make the all target the default.
@@ -2079,13 +2080,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ..\CMakeLists.txt ..\thirdparty\glfw\CMakeLists.txt ..\thirdparty\glfw\CMake\modules\FindVulkan.cmake ..\thirdparty\glfw\cmake_uninstall.cmake.in ..\thirdparty\glfw\examples\CMakeLists.txt ..\thirdparty\glfw\src\CMakeLists.txt ..\thirdparty\glfw\src\glfw3.pc.in ..\thirdparty\glfw\src\glfw3Config.cmake.in ..\thirdparty\glfw\src\glfw_config.h.in ..\thirdparty\glfw\tests\CMakeLists.txt ..\thirdparty\single_header\CMakeLists.txt C$:\Program$ Files\CMake\share\cmake-3.11\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindDoxygen.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindVulkan.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles\3.11.1\CMakeCCompiler.cmake CMakeFiles\3.11.1\CMakeCXXCompiler.cmake CMakeFiles\3.11.1\CMakeRCCompiler.cmake CMakeFiles\3.11.1\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ..\CMakeLists.txt ..\thirdparty\glfw\CMakeLists.txt ..\thirdparty\glfw\CMake\modules\FindVulkan.cmake ..\thirdparty\glfw\cmake_uninstall.cmake.in ..\thirdparty\glfw\examples\CMakeLists.txt ..\thirdparty\glfw\src\CMakeLists.txt ..\thirdparty\glfw\src\glfw3.pc.in ..\thirdparty\glfw\src\glfw3Config.cmake.in ..\thirdparty\glfw\src\glfw_config.h.in ..\thirdparty\glfw\tests\CMakeLists.txt ..\thirdparty\single_header\CMakeLists.txt C$:\Program$ Files\CMake\share\cmake-3.11\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-C.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-CXX.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Compiler\Clang.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindDoxygen.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindVulkan.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Clang-C.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Clang-CXX.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Clang.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles\3.11.1\CMakeCCompiler.cmake CMakeFiles\3.11.1\CMakeCXXCompiler.cmake CMakeFiles\3.11.1\CMakeRCCompiler.cmake CMakeFiles\3.11.1\CMakeSystem.cmake
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ..\CMakeLists.txt ..\thirdparty\glfw\CMakeLists.txt ..\thirdparty\glfw\CMake\modules\FindVulkan.cmake ..\thirdparty\glfw\cmake_uninstall.cmake.in ..\thirdparty\glfw\examples\CMakeLists.txt ..\thirdparty\glfw\src\CMakeLists.txt ..\thirdparty\glfw\src\glfw3.pc.in ..\thirdparty\glfw\src\glfw3Config.cmake.in ..\thirdparty\glfw\src\glfw_config.h.in ..\thirdparty\glfw\tests\CMakeLists.txt ..\thirdparty\single_header\CMakeLists.txt C$:\Program$ Files\CMake\share\cmake-3.11\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindDoxygen.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindVulkan.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles\3.11.1\CMakeCCompiler.cmake CMakeFiles\3.11.1\CMakeCXXCompiler.cmake CMakeFiles\3.11.1\CMakeRCCompiler.cmake CMakeFiles\3.11.1\CMakeSystem.cmake: phony
+build ..\CMakeLists.txt ..\thirdparty\glfw\CMakeLists.txt ..\thirdparty\glfw\CMake\modules\FindVulkan.cmake ..\thirdparty\glfw\cmake_uninstall.cmake.in ..\thirdparty\glfw\examples\CMakeLists.txt ..\thirdparty\glfw\src\CMakeLists.txt ..\thirdparty\glfw\src\glfw3.pc.in ..\thirdparty\glfw\src\glfw3Config.cmake.in ..\thirdparty\glfw\src\glfw_config.h.in ..\thirdparty\glfw\tests\CMakeLists.txt ..\thirdparty\single_header\CMakeLists.txt C$:\Program$ Files\CMake\share\cmake-3.11\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-C.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-CXX.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Compiler\Clang.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindDoxygen.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\FindVulkan.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Clang-C.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Clang-CXX.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-Clang.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles\3.11.1\CMakeCCompiler.cmake CMakeFiles\3.11.1\CMakeCXXCompiler.cmake CMakeFiles\3.11.1\CMakeRCCompiler.cmake CMakeFiles\3.11.1\CMakeSystem.cmake: phony
 
 #############################################
 # Clean all the built files.

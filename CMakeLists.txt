@@ -7,7 +7,7 @@ project(${NAME})
 
 # Dependencies
 
-find_package(Vulkan REQUIRED)
+find_package(Vulkan)
 add_subdirectory(thirdparty/glfw)
 add_subdirectory(thirdparty/single_header)
 
@@ -19,4 +19,8 @@ file(GLOB src
 )
 
 add_executable(${NAME} ${src})
-target_link_libraries(${NAME} glfw)
+set_target_properties(${NAME} 
+    PROPERTIES 
+    RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin"
+)
+target_link_libraries(${NAME} glfw Vulkan::Vulkan)

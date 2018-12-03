@@ -1,103 +1,103 @@
 [
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\vulkan_project.dir\\src\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\src\\main.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -TP  -I..\\thirdparty\\glfw\\include -IC:\\VulkanSDK\\1.1.92.1\\Include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\vulkan_project.dir\\src\\main.cpp.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\src\\main.cpp",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/src/main.cpp"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\context.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\context.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/context.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\init.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\init.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\init.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\init.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/init.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\input.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\input.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\input.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\input.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/input.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\monitor.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\monitor.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/monitor.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\vulkan.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\vulkan.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/vulkan.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\window.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\window.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\window.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\window.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/window.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\win32_init.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\win32_init.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/win32_init.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\win32_joystick.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\win32_joystick.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/win32_joystick.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\win32_monitor.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\win32_monitor.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/win32_monitor.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\win32_time.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\win32_time.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/win32_time.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\win32_thread.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\win32_thread.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/win32_thread.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\win32_window.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\win32_window.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/win32_window.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\wgl_context.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\wgl_context.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/wgl_context.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\egl_context.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\egl_context.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/egl_context.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\osmesa_context.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I..\\thirdparty\\glfw\\include -I..\\thirdparty\\glfw\\src -Ithirdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   -Wall -Wdeclaration-after-statement /Fothirdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\src\\osmesa_context.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/src/osmesa_context.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\boing.dir\\boing.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\boing.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\boing.dir\\boing.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\boing.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/examples/boing.c"
 },
 
@@ -109,13 +109,13 @@
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\boing.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\boing.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\simple.dir\\simple.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\simple.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\simple.dir\\simple.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\simple.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/examples/simple.c"
 },
 
@@ -127,13 +127,13 @@
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\simple.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\simple.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\gears.dir\\gears.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\gears.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\gears.dir\\gears.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\gears.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/examples/gears.c"
 },
 
@@ -145,13 +145,13 @@
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\gears.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\gears.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\wave.dir\\wave.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\wave.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\wave.dir\\wave.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\wave.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/examples/wave.c"
 },
 
@@ -163,13 +163,13 @@
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\wave.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\wave.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\particles.dir\\particles.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\particles.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\particles.dir\\particles.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\particles.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/examples/particles.c"
 },
 
@@ -181,25 +181,25 @@
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\particles.dir\\__\\deps\\tinycthread.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\tinycthread.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\particles.dir\\__\\deps\\tinycthread.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\tinycthread.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/tinycthread.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\particles.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\particles.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/getopt.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\particles.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\particles.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\heightmap.dir\\heightmap.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\heightmap.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\heightmap.dir\\heightmap.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\heightmap.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/examples/heightmap.c"
 },
 
@@ -211,13 +211,13 @@
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\heightmap.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\heightmap.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\splitview.dir\\splitview.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\splitview.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\splitview.dir\\splitview.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\splitview.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/examples/splitview.c"
 },
 
@@ -229,13 +229,13 @@
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\splitview.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\splitview.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\offscreen.dir\\offscreen.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\offscreen.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\offscreen.dir\\offscreen.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\offscreen.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/examples/offscreen.c"
 },
 
@@ -247,13 +247,13 @@
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\offscreen.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\offscreen.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\sharing.dir\\sharing.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\sharing.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\sharing.dir\\sharing.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\examples\\sharing.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/examples/sharing.c"
 },
 
@@ -265,307 +265,307 @@
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\sharing.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\examples\\CMakeFiles\\sharing.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\clipboard.dir\\clipboard.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\clipboard.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\clipboard.dir\\clipboard.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\clipboard.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/clipboard.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\clipboard.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\clipboard.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/getopt.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\clipboard.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\clipboard.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\events.dir\\events.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\events.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\events.dir\\events.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\events.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/events.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\events.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\events.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/getopt.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\events.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\events.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\msaa.dir\\msaa.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\msaa.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\msaa.dir\\msaa.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\msaa.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/msaa.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\msaa.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\msaa.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/getopt.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\msaa.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\msaa.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\glfwinfo.dir\\glfwinfo.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\glfwinfo.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\glfwinfo.dir\\glfwinfo.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\glfwinfo.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/glfwinfo.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\glfwinfo.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\glfwinfo.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/getopt.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\glfwinfo.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\glfwinfo.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\iconify.dir\\iconify.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\iconify.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\iconify.dir\\iconify.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\iconify.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/iconify.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\iconify.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\iconify.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/getopt.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\iconify.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\iconify.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\empty.dir\\empty.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\empty.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\empty.dir\\empty.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\empty.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/empty.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\empty.dir\\__\\deps\\tinycthread.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\tinycthread.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\empty.dir\\__\\deps\\tinycthread.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\tinycthread.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/tinycthread.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\empty.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\empty.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\monitors.dir\\monitors.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\monitors.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\monitors.dir\\monitors.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\monitors.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/monitors.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\monitors.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\monitors.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/getopt.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\monitors.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\monitors.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\reopen.dir\\reopen.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\reopen.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\reopen.dir\\reopen.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\reopen.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/reopen.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\reopen.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\reopen.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\cursor.dir\\cursor.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\cursor.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\cursor.dir\\cursor.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\cursor.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/cursor.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\cursor.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\cursor.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\gamma.dir\\gamma.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\gamma.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\gamma.dir\\gamma.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\gamma.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/gamma.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\gamma.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\gamma.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\icon.dir\\icon.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\icon.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\icon.dir\\icon.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\icon.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/icon.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\icon.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\icon.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\inputlag.dir\\inputlag.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\inputlag.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\inputlag.dir\\inputlag.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\inputlag.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/inputlag.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\inputlag.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\inputlag.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/getopt.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\inputlag.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\inputlag.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\joysticks.dir\\joysticks.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\joysticks.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\joysticks.dir\\joysticks.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\joysticks.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/joysticks.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\joysticks.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\joysticks.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\threads.dir\\threads.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\threads.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\threads.dir\\threads.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\threads.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/threads.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\threads.dir\\__\\deps\\tinycthread.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\tinycthread.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\threads.dir\\__\\deps\\tinycthread.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\tinycthread.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/tinycthread.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\threads.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\threads.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\opacity.dir\\opacity.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\opacity.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\opacity.dir\\opacity.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\opacity.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/opacity.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\opacity.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\opacity.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\tearing.dir\\tearing.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\tearing.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\tearing.dir\\tearing.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\tearing.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/tearing.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\tearing.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\tearing.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\timeout.dir\\timeout.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\timeout.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\timeout.dir\\timeout.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\timeout.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/timeout.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\timeout.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\timeout.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\title.dir\\title.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\title.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\title.dir\\title.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\title.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/title.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\title.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\title.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\windows.dir\\windows.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\windows.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\windows.dir\\windows.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\windows.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/windows.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\windows.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\windows.dir\\__\\deps\\getopt.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\getopt.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/getopt.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\windows.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\windows.dir\\__\\deps\\glad.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\deps\\glad.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/deps/glad.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -IC:\\VulkanSDK\\1.1.92.1\\Include -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\vulkan.dir\\vulkan.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\vulkan.c",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -I..\\thirdparty\\glfw\\deps -IC:\\VulkanSDK\\1.1.92.1\\Include -I..\\thirdparty\\glfw\\include  /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\glfw\\tests\\CMakeFiles\\vulkan.dir\\vulkan.c.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\glfw\\tests\\vulkan.c",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/glfw/tests/vulkan.c"
 },
 
 {
   "directory": "c:/Users/Ray/Desktop/home/vulkan/bootstrap/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1414~1.264\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\single_header\\CMakeFiles\\single_hander_libs.dir\\single_header.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\single_header\\single_header.cpp",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /Fothirdparty\\single_header\\CMakeFiles\\single_hander_libs.dir\\single_header.cpp.obj /FdTARGET_COMPILE_PDB -c C:\\Users\\Ray\\Desktop\\home\\vulkan\\bootstrap\\thirdparty\\single_header\\single_header.cpp",
   "file": "C:/Users/Ray/Desktop/home/vulkan/bootstrap/thirdparty/single_header/single_header.cpp"
 }
 ]

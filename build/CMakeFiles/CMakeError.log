@@ -1,11 +1,36 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files/LLVM/bin/clang-cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+clang-cl.exe: error: unable to execute command: program not executable
+clang-cl.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files/LLVM/bin/clang-cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+clang-cl.exe: error: unable to execute command: program not executable
+clang-cl.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
 Determining if the include file pthread.h exists failed with the following output:
 Change Dir: c:/Users/Ray/Desktop/home/vulkan/bootstrap/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Ninja/ninja.exe" "cmTC_18dbf"
-[1/2] Building C object CMakeFiles\cmTC_18dbf.dir\CheckIncludeFile.c.obj
-FAILED: CMakeFiles/cmTC_18dbf.dir/CheckIncludeFile.c.obj 
-C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_18dbf.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_18dbf.dir\ /FS -c CheckIncludeFile.c
-CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+Run Build Command:"C:/Ninja/ninja.exe" "cmTC_82757"
+[1/2] Building C object CMakeFiles\cmTC_82757.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_82757.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\LLVM\bin\clang-cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_82757.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_82757.dir\ -c CheckIncludeFile.c
+CheckIncludeFile.c(1,10):  fatal error: 'pthread.h' file not found
+#include <pthread.h>
+         ^~~~~~~~~~~
+1 error generated.
 ninja: build stopped: subcommand failed.
 
 
