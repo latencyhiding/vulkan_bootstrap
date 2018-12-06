@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
         confirm_query = "Is this information correct? \n" + "Remote url: " + remote_url + "\n" + "Project name: " + name + "\n" + "(Y/N): "
         confirm_response = input(confirm_query).lower()
-        while confirm_response != "y" or confirm_response != "n":
+        while confirm_response != "y" and confirm_response != "n":
             confirm_response = input(confirm_query).lower()
         
         if confirm_response == "n":
