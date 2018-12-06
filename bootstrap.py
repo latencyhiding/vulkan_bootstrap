@@ -38,10 +38,11 @@ if __name__ == "__main__":
         submodule.update(init=True)
 
     # Set project name:
+    name = "_".join(name.split())
     cmake_lists = "CMakeLists.txt"
     with open(cmake_lists) as f:
         s = f.read()
 
     with open(cmake_lists, "w") as f:
-        s.replace("vulkan_project", name)
-        f.write(s)
+        replaced = s.replace("vulkan_project", name)
+        f.write(replaced)
