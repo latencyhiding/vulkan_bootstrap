@@ -34,7 +34,7 @@ if __name__ == "__main__":
     remote.set_url(remote_url)
 
     # Pull submodules
-    for submodule in repo.submodule:
+    for submodule in repo.submodules:
         submodule.update(init=True)
 
     # Set project name:
