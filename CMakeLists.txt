@@ -21,6 +21,7 @@ file(GLOB src
 add_executable(${NAME} ${src})
 set_target_properties(${NAME} 
     PROPERTIES 
-    RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin"
+    RUNTIME_OUTPUT_DIRECTORY_RELEASE "${PROJECT_SOURCE_DIR}/bin"
+    RUNTIME_OUTPUT_DIRECTORY_DEBUG "${PROJECT_SOURCE_DIR}/bin/debug"
 )
 target_link_libraries(${NAME} glfw Vulkan::Vulkan)
