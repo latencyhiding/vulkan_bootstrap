@@ -31,7 +31,10 @@ if __name__ == "__main__":
     
     # Set remote url
     remote = Remote(repo, "origin")
-    remote.set_url(remote_url)
+    if remote:
+        remote.set_url(remote_url)
+    else:
+        remote = repo.create_remote("origin", url=remote_url)
 
     # Pull submodules
     for submodule in repo.submodules:
