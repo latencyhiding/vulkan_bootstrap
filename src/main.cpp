@@ -1,31 +1,105 @@
-#define GLFW_INCLUDE_VULKAN
-#include <GLFW/glfw3.h>
-
-#include <iostream>
-#include <stdexcept>
+#include <cstdio>
 #include <cstdlib>
+ 
+#define GLM_FORCE_RADIANS 1
+#include <SDL.h>
+ 
+#include "glad/glad.h"
+#include "utils.h"
+#include "gl_helpers.h"
 
-const int WIDTH = 800;
-const int HEIGHT = 600;
-
-int main()
+void sdl_error(const char* message)
 {
-    GLFWwindow *window;
-    glfwInit();
+    RUNTIME_ERROR("%s: %s\n", message, SDL_GetError());
+}
 
-    glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
-    glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
+void init_sdl()
+{
+    if (SDL_Init(SDL_INIT_VIDEO) < 0)
+        sdl_error("Error initializing SDL");
+    atexit(SDL_Quit);
 
-    window = glfwCreateWindow(WIDTH, HEIGHT, "Vulkan", nullptr, nullptr);
+    SDL_GL_LoadLibrary(NULL);
+    SDL_GL_SetAttribute(SDL_GL_ACCELERATED_VISUAL, 1);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 4);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
 
-    while (!glfwWindowShouldClose(window))
+    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
+    SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 24);
+}
+
+struct SDLWindow
+{
+    SDL_Window* window;
+    SDL_GLContext context;
+};
+
+SDLWindow create_sdl_window(
+    const char* title,
+    int x, 
+    int y,
+    int w,
+    int h,
+    bool fullscreen
+)
+{
+    SDLWindow new_window;
+    Uint32 window_settings = SDL_WINDOW_OPENGL;
+
+    if (fullscreen)
+        window_settings |= SDL_WINDOW_FULLSCREEN_DESKTOP;
+
+    new_window.window = SDL_CreateWindow(
+        title,
+        x,
+        y,
+        w,
+        h,
+        window_settings
+    );
+
+    new_window.context = SDL_GL_CreateContext(new_window.window);
+    if (new_window.context == NULL)
+        sdl_error("GL context failed to create");
+
+    gladLoadGLLoader(SDL_GL_GetProcAddress);
+
+    SDL_GL_SetSwapInterval(1);
+    glViewport(0, 0, w, h);
+    glClearColor(0.0f, 0.5f, 1.0f, 0.0f);
+
+    return new_window;
+}
+
+int main(int argc, char* argv[])
+{
+    GLHelpers::VertexAttribute test_attributes[2];
+    test_attributes[0] = GLHelpers::create_attribute("Vec4 attribute 1", GLHelpers::VertexAttribute::Type::VEC4);
+    test_attributes[1] = GLHelpers::create_attribute("Vec3 attribute 2", GLHelpers::VertexAttribute::Type::VEC3);
+
+    init_sdl();
+    SDLWindow window = create_sdl_window(
+        "Test",
+        SDL_WINDOWPOS_UNDEFINED,
+        SDL_WINDOWPOS_UNDEFINED,
+        800,
+        600,
+        false
+    );
+
+    bool quit = false;
+    SDL_Event event;
+    while (!quit)
     {
-        glfwPollEvents();
+        while (SDL_PollEvent(&event))
+        {
+            if (event.type == SDL_QUIT)
+            {
+                quit = true;
+            }
+        }
+        SDL_GL_SwapWindow(window.window);
     }
 
-    glfwDestroyWindow(window);
-
-    glfwTerminate();
-
-    return EXIT_SUCCESS;
+    return 0;
 }

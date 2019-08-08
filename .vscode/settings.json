@@ -1,3 +1,18 @@
 {
-    "C_Cpp.intelliSenseEngineFallback": "Disabled"
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "lldb.adapterType": "bundled",
+    "files.associations": {
+        "cstdio": "cpp"
+    },
+    "logViewer.showStatusBarItemOnChange": true,
+    "logViewer.watch": [
+        {
+            "title": "Debug",
+            "pattern": "./bin/debug/*.log"
+        },
+        {
+            "title": "Release",
+            "pattern": "./bin/release/*.log"
+        }
+    ]
 }
