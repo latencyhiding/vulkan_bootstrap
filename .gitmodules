@@ -7,3 +7,6 @@
 [submodule "thirdparty/Catch2"]
 	path = thirdparty/Catch2
 	url = git@github.com:catchorg/Catch2.git
+[submodule "thirdparty/SPIRV-Cross"]
+	path = thirdparty/SPIRV-Cross
+	url = git@github.com:KhronosGroup/SPIRV-Cross.git
