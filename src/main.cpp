@@ -3,10 +3,10 @@
  
 #define GLM_FORCE_RADIANS 1
 #include <SDL.h>
+#include <glad/glad.h>
  
-#include "glad/glad.h"
 #include "utils.h"
-#include "gl_helpers.h"
+#include "graphics.h"
 
 void sdl_error(const char* message)
 {
@@ -73,11 +73,10 @@ SDLWindow create_sdl_window(
 
 int main(int argc, char* argv[])
 {
-    GLHelpers::VertexAttribute test_attributes[2];
-    test_attributes[0] = GLHelpers::create_attribute("Vec4 attribute 1", GLHelpers::VertexAttribute::Type::VEC4);
-    test_attributes[1] = GLHelpers::create_attribute("Vec3 attribute 2", GLHelpers::VertexAttribute::Type::VEC3);
-
     init_sdl();
+
+    Graphics::Backend* backend = Graphics::init_backend(Graphics::OPENGL_4);
+
     SDLWindow window = create_sdl_window(
         "Test",
         SDL_WINDOWPOS_UNDEFINED,
@@ -100,6 +99,8 @@ int main(int argc, char* argv[])
         }
         SDL_GL_SwapWindow(window.window);
     }
+
+    Graphics::deinit_backend(backend);
 
     return 0;
 }

@@ -14,5 +14,12 @@
             "title": "Release",
             "pattern": "./bin/release/*.log"
         }
-    ]
+    ],
+    "catch2TestExplorer.debugConfigTemplate": {
+        "type": "lldb",
+        "request": "launch",
+        "program": "${exec}",
+        "cwd": "${cwd}",
+        "terminal": "integrated"
+    }
 }
